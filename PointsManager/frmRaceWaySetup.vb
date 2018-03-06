@@ -11,6 +11,7 @@ Public Class frmRaceWaySetup
         title = "Enter Track Description"
         defaultValue = ""   ' Set default value.
 
+        ''' added New comment here
 
         ' Display message, title, and default value.
         myValue = InputBox(message, title, defaultValue)
